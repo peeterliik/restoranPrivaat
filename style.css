@@ -117,3 +117,37 @@ h5 {
   line-height: 52px;
   text-align: center;
 }
+
+.calendar {
+    background-color: #DADAD9;
+}
+
+.pilt-kiri {
+    position: relative;
+    border: 1px solid #93918F;
+}
+
+.pilt-kiri .nimi {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #93918f;
+}
+
+.day {
+    background-color: whitesmoke;
+    font-weight: 400;
+}
+
+.weekday {
+    font-weight: 500;
+}
+
+.currentday {
+    background-color: #8492A6;
+    color: white;
+}
