@@ -86,7 +86,25 @@ hr{
     color: white;
 }
 
-img{
+header img{
     max-width: 10vw;
     height: auto;
+}
+
+
+.carousel-inner img {
+   display: block;
+    max-width: 800px;
+    width: auto;
+    height: auto;
+    border: 3px solid #555
+}
+
+h5 {
+    color: #FFFFFF;
+  font-family: Playfair Display;
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 52px;
+  text-align: center;
 }
