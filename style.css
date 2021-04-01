@@ -64,14 +64,23 @@ hr{
     min-height: 90vh;
   }
 
+.test {
+   font-family: 'Playfair Display SC';
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
   .test:hover{
     display:none;
   }
   
 .test:hover + .box {
     display:block;
-    font-size: 12px;
-    background-color: #D5C39B;
+    border-radius: 20px;
+    font-size: 22px;
+    background: rgba(196, 157, 99, 0.5);
+    
   }
 
 .box{
